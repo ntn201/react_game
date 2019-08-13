@@ -10,7 +10,6 @@ class Square extends React.Component{
     }
 
     render(){
-        console.log(this.state)
         if (this.state.state == "open"){
             return (
                 <button className="chess-square" onClick={(square,x,y) => this.props.handleClick(this,this.props.x,this.props.y)}></button>

@@ -6,7 +6,7 @@ class Restart extends React.Component{
     }
     render(){
         return(
-            <button onClick={this.props.handleClick}>Restart</button>
+            <button className="restart" onClick={this.props.handleClick}>Restart</button>
         )
     }
 }
